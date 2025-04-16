@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Sep  7 09:31:00 2024
+
+@author: Admin
+"""
+
+a=[]
+n=int(input('Enter n integer values:'))
+for i in range(0,n):
+    d=int(input('Enter the value: '))
+    a.append(d)
+
+
+b=0
+for i in range(0,len(a)):
+    if a[i]>b:
+        b=a[i]
+        c=i
+print('Biggest index is:',c)
